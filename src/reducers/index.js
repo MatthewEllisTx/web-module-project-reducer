@@ -1,4 +1,4 @@
-import { ADD_ONE, APPLY_NUMBER, CHANGE_OPERATION, CLEAR_DISPLAY, ADD_TO_MEM, USE_MEM, CLEAR_MEM } from './../actions';
+import { APPLY_NUMBER, CHANGE_OPERATION, CLEAR_DISPLAY, ADD_TO_MEM, USE_MEM, CLEAR_MEM } from './../actions';
 
 export const initialState = {
     total: 100,
@@ -7,6 +7,7 @@ export const initialState = {
 }
 
 const calculateResult = (num1, num2, operation) => {
+    // eslint-disable-next-line default-case
     switch(operation) {
         case("+"):
             return num1 + num2;

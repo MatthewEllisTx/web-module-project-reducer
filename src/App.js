@@ -6,7 +6,7 @@ import TotalDisplay from './components/TotalDisplay';
 import CalcButton from './components/CalcButton';
 
 import reducer, { initialState } from './reducers/index';
-import { ADD_ONE, APPLY_NUMBER, CHANGE_OPERATION, CLEAR_DISPLAY, ADD_TO_MEM, USE_MEM, CLEAR_MEM } from './actions/index';
+import { APPLY_NUMBER, CHANGE_OPERATION, CLEAR_DISPLAY, ADD_TO_MEM, USE_MEM, CLEAR_MEM } from './actions/index';
 
 
 function App() {
